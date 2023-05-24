@@ -1,0 +1,66 @@
+2023-05-23 17:12:49.061 [info] Extension host with pid 21247 started
+2023-05-23 17:12:49.101 [info] Lock '/home/centos/.vscode-server/data/User/workspaceStorage/577a03a6b49eaa8af7e20d50e6c86f65/vscode.lock': Lock acquired.
+2023-05-23 17:12:49.175 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2023-05-23 17:12:49.177 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-05-23 17:12:50.021 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-05-23 17:12:50.047 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2023-05-23 17:12:50.733 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-05-23 17:12:50.733 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-05-23 17:12:52.152 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2505
+2023-05-23 17:12:53.397 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2507
+2023-05-23 17:12:53.424 [info] Eager extensions activated
+2023-05-23 17:12:53.424 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-05-23 17:12:53.425 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-05-23 17:12:55.235 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2507
+2023-05-23 17:12:56.090 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2507
+2023-05-23 17:13:01.196 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2508
+2023-05-23 17:13:06.295 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2508
+2023-05-23 17:13:11.392 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2508
+2023-05-23 17:13:16.485 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2508
+2023-05-23 17:17:04.418 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2508
+2023-05-23 17:17:05.042 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2508
+2023-05-23 17:17:09.512 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2508
+2023-05-23 17:17:14.627 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2508
+2023-05-23 17:20:35.114 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2508
+2023-05-23 17:20:35.725 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2508
+2023-05-23 17:20:40.225 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2508
+2023-05-23 17:20:45.338 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2508
+2023-05-23 17:20:50.424 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2508
+2023-05-23 17:58:54.629 [info] Extension host terminating: renderer disconnected for too long (2)
+2023-05-23 17:58:54.630 [info] Lock '/home/centos/.vscode-server/data/User/workspaceStorage/577a03a6b49eaa8af7e20d50e6c86f65/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-05-23 17:58:54.650 [error] Canceled: Canceled
+	at new l (/home/centos/nodeapp/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:99:104563)
+	at a.O (/home/centos/nodeapp/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:111:11657)
+	at Proxy.H.<computed>.x.charCodeAt.H.<computed> (/home/centos/nodeapp/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:111:8947)
+	at e.ExtHostCommands.g (/home/centos/nodeapp/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:99:124729)
+	at e.ExtHostCommands.executeCommand (/home/centos/nodeapp/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:99:124105)
+	at C.registerCommand.description (/home/centos/nodeapp/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:99:123398)
+	at e.ExtHostCommands.h (/home/centos/nodeapp/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:99:125315)
+	at e.ExtHostCommands.g (/home/centos/nodeapp/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:99:124205)
+	at e.ExtHostCommands.executeCommand (/home/centos/nodeapp/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:99:124105)
+	at Object.executeCommand (/home/centos/nodeapp/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:117:24043)
+	at D (/home/centos/nodeapp/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/main.js:2:1259661)
+	at v.invoke (/home/centos/nodeapp/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/centos/nodeapp/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at i.fire (/home/centos/nodeapp/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at Object.m [as dispose] (/home/centos/nodeapp/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/main.js:2:1274494)
+	at /home/centos/nodeapp/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/main.js:2:1278940
+	at Array.forEach (<anonymous>)
+	at g.dispose (/home/centos/nodeapp/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/main.js:2:1278926)
+	at t.<anonymous> (/home/centos/nodeapp/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:97:12369)
+	at t.dispose (/home/centos/nodeapp/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:97:12504)
+	at t.<anonymous> (/home/centos/nodeapp/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/main.js:2:1261791)
+	at t.dispose (/home/centos/nodeapp/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:97:12504)
+	at P (/home/centos/nodeapp/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:10:12080)
+	at v.Y (/home/centos/nodeapp/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:113:11173)
+	at /home/centos/nodeapp/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:113:9157
+	at Array.map (<anonymous>)
+	at v.R (/home/centos/nodeapp/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:113:9144)
+	at v.terminate (/home/centos/nodeapp/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:113:9415)
+	at d.terminate (/home/centos/nodeapp/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:117:1544)
+	at g (/home/centos/nodeapp/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:127:34439)
+	at x.a (/home/centos/nodeapp/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:127:30994)
+	at x.h (/home/centos/nodeapp/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:66:46626)
+	at listOnTimeout (node:internal/timers:559:17)
+	at processTimers (node:internal/timers:502:7) setContext undefined
+2023-05-23 17:58:54.650 [info] Extension host with pid 21247 exiting with code 0

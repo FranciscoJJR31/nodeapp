@@ -1,0 +1,52 @@
+2023-05-23 12:02:18.592 [info] 
+
+
+
+
+2023-05-23 12:02:18.592 [info] Extension host agent started.
+2023-05-23 12:02:18.609 [info] Started initializing default profile extensions in extensions installation folder. file:///home/centos/.vscode-server/extensions
+2023-05-23 12:02:18.669 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/centos/.vscode-server/extensions
+2023-05-23 12:02:18.677 [info] [127.0.0.1][b500931c][ManagementConnection] New connection established.
+2023-05-23 12:02:18.684 [info] [127.0.0.1][21b29685][ExtensionHostConnection] New connection established.
+2023-05-23 12:02:19.704 [info] [127.0.0.1][21b29685][ExtensionHostConnection] <6582> Launched Extension Host Process.
+2023-05-23 12:02:41.118 [info] [127.0.0.1][36b14744][ManagementConnection] New connection established.
+2023-05-23 12:02:41.129 [info] [127.0.0.1][217a475a][ExtensionHostConnection] New connection established.
+2023-05-23 12:02:41.137 [info] [127.0.0.1][217a475a][ExtensionHostConnection] <6679> Launched Extension Host Process.
+2023-05-23 12:02:50.766 [info] [127.0.0.1][36b14744][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-05-23 12:02:50.796 [info] [127.0.0.1][217a475a][ExtensionHostConnection] <6679> Extension Host Process exited with code: 0, signal: null.
+2023-05-23 12:02:50.797 [info] Cancelling previous shutdown timeout
+2023-05-23 12:12:19.001 [info] Started initializing default profile extensions in extensions installation folder. file:///home/centos/.vscode-server/extensions
+2023-05-23 12:12:19.003 [error] Error: Unable to resolve nonexistent file '/home/centos/.vscode-server/extensions'
+    at e.FileService.resolve (/home/centos/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/server/node/server.main.js:92:18355)
+    at async ce.k (/home/centos/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/server/node/server.main.js:142:56654)
+    at async ce.scanExtensions (/home/centos/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/server/node/server.main.js:142:56405)
+    at async e.ExtensionsScannerService.scanUserExtensions (/home/centos/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/server/node/server.main.js:142:48951)
+    at async /home/centos/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/server/node/server.main.js:142:51055
+    at async e.ExtensionsScannerService.scanUserExtensions (/home/centos/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/server/node/server.main.js:142:49075)
+    at async e.ExtensionsScanner.scanExtensions (/home/centos/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/server/node/server.main.js:153:11893)
+    at async d.call (/home/centos/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/server/node/server.main.js:87:25603)
+2023-05-23 12:17:30.697 [info] [127.0.0.1][b500931c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-05-23 12:17:30.773 [info] [127.0.0.1][21b29685][ExtensionHostConnection] <6582> Extension Host Process exited with code: 0, signal: null.
+2023-05-23 12:17:30.774 [info] Last EH closed, waiting before shutting down
+2023-05-23 12:17:49.690 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-05-23 12:17:49.690 [info] Cancelling previous shutdown timeout
+2023-05-23 12:17:49.805 [info] [127.0.0.1][a9dc1de4][ManagementConnection] New connection established.
+2023-05-23 12:17:49.805 [info] [127.0.0.1][c0408754][ExtensionHostConnection] New connection established.
+2023-05-23 12:17:49.815 [info] [127.0.0.1][c0408754][ExtensionHostConnection] <8135> Launched Extension Host Process.
+2023-05-23 12:18:05.030 [info] [127.0.0.1][a9dc1de4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-05-23 12:18:05.062 [info] [127.0.0.1][c0408754][ExtensionHostConnection] <8135> Extension Host Process exited with code: 0, signal: null.
+2023-05-23 12:18:05.063 [info] Cancelling previous shutdown timeout
+2023-05-23 12:18:05.063 [info] Last EH closed, waiting before shutting down
+2023-05-23 12:18:12.476 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-05-23 12:18:12.476 [info] Cancelling previous shutdown timeout
+2023-05-23 12:18:12.582 [info] [127.0.0.1][71bd81fe][ManagementConnection] New connection established.
+2023-05-23 12:18:12.587 [info] [127.0.0.1][6780bb2d][ExtensionHostConnection] New connection established.
+2023-05-23 12:18:12.601 [info] [127.0.0.1][6780bb2d][ExtensionHostConnection] <8456> Launched Extension Host Process.
+2023-05-23 12:23:12.476 [info] New EH opened, aborting shutdown
+2023-05-23 13:26:41.177 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2023-05-23 13:26:41.180 [info] [127.0.0.1][71bd81fe][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2023-05-23 16:27:54.778 [info] [127.0.0.1][71bd81fe][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+2023-05-23 16:28:00.760 [info] [127.0.0.1][6780bb2d][ExtensionHostConnection] <8456> Extension Host Process exited with code: 0, signal: null.
+2023-05-23 16:28:00.760 [info] Last EH closed, waiting before shutting down
+2023-05-23 16:33:00.763 [info] Last EH closed, shutting down

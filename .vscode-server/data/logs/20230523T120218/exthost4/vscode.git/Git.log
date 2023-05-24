@@ -1,0 +1,282 @@
+2023-05-23 12:18:14.344 [info] Log level: Info
+2023-05-23 12:18:14.344 [info] Validating found git in: "git"
+2023-05-23 12:18:14.344 [info] Using git "1.8.3.1" from "git"
+2023-05-23 12:18:14.344 [info] > git rev-parse --show-toplevel [6ms]
+2023-05-23 12:18:14.344 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-05-23 12:18:14.344 [info] Open repository: /home/centos/nodeapp
+2023-05-23 12:18:14.344 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:18:14.344 [info] > git remote --verbose [21ms]
+2023-05-23 12:18:14.344 [info] > git rev-parse --show-toplevel [28ms]
+2023-05-23 12:18:14.344 [info] > git config --get commit.template [22ms]
+2023-05-23 12:18:14.344 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [6ms]
+2023-05-23 12:18:14.347 [info] > git status -z -uall [28ms]
+2023-05-23 12:18:14.433 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:18:14.441 [info] > git config --get commit.template [1ms]
+2023-05-23 12:18:14.441 [info] > git remote --verbose [8ms]
+2023-05-23 12:18:14.951 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [504ms]
+2023-05-23 12:18:14.977 [info] > git check-ignore -v -z --stdin [13ms]
+2023-05-23 12:18:14.984 [info] > git status -z -uall [27ms]
+2023-05-23 12:18:15.520 [info] > git fetch [1275ms]
+2023-05-23 12:18:15.520 [info] Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-05-23 12:18:15.529 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:18:15.538 [info] > git config --get commit.template [2ms]
+2023-05-23 12:18:15.539 [info] > git remote --verbose [9ms]
+2023-05-23 12:18:15.579 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [12ms]
+2023-05-23 12:18:15.623 [info] > git status -z -uall [36ms]
+2023-05-23 12:18:16.948 [info] > git show --textconv :index.js [102ms]
+2023-05-23 12:18:16.948 [info] > git ls-files --stage -- /home/centos/nodeapp/index.js [55ms]
+2023-05-23 12:18:16.974 [info] > git cat-file -s 154fb364a866b4c2087bbc8e66e90300d7e270f1 [2ms]
+2023-05-23 12:18:20.324 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:18:20.355 [info] > git remote --verbose [31ms]
+2023-05-23 12:18:20.418 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [0ms]
+2023-05-23 12:18:20.418 [info] > git config --get commit.template [64ms]
+2023-05-23 12:18:20.499 [info] > git status -z -uall [48ms]
+2023-05-23 12:18:25.567 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:18:25.578 [info] > git remote --verbose [11ms]
+2023-05-23 12:18:25.579 [info] > git config --get commit.template [2ms]
+2023-05-23 12:18:25.592 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [1ms]
+2023-05-23 12:18:25.623 [info] > git status -z -uall [24ms]
+2023-05-23 12:20:34.258 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:20:34.271 [info] > git remote --verbose [12ms]
+2023-05-23 12:20:34.285 [info] > git config --get commit.template [16ms]
+2023-05-23 12:20:34.286 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [5ms]
+2023-05-23 12:20:34.323 [info] > git status -z -uall [26ms]
+2023-05-23 12:20:39.393 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:20:39.394 [info] > git config --get commit.template [7ms]
+2023-05-23 12:20:39.395 [info] > git remote --verbose [2ms]
+2023-05-23 12:20:39.403 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [2ms]
+2023-05-23 12:20:39.432 [info] > git status -z -uall [22ms]
+2023-05-23 12:20:44.471 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:20:44.480 [info] > git remote --verbose [8ms]
+2023-05-23 12:20:44.481 [info] > git config --get commit.template [2ms]
+2023-05-23 12:20:44.490 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [0ms]
+2023-05-23 12:20:44.519 [info] > git status -z -uall [21ms]
+2023-05-23 12:20:46.125 [info] > git ls-files --stage -- /home/centos/nodeapp/index.js [2ms]
+2023-05-23 12:20:46.136 [info] > git cat-file -s 154fb364a866b4c2087bbc8e66e90300d7e270f1 [2ms]
+2023-05-23 12:20:46.172 [info] > git show --textconv :index.js [21ms]
+2023-05-23 12:20:46.172 [info] > git show --textconv :Dockerfile [12ms]
+2023-05-23 12:20:46.172 [info] > git ls-files --stage -- /home/centos/nodeapp/Dockerfile [4ms]
+2023-05-23 12:20:46.187 [info] > git cat-file -s b977f2e80f509e86d2980f0e1e0d2f4f10242e5a [3ms]
+2023-05-23 12:20:49.210 [info] > git show --textconv :index.js.bk [9ms]
+2023-05-23 12:20:49.213 [info] > git ls-files --stage -- /home/centos/nodeapp/index.js.bk [4ms]
+2023-05-23 12:20:49.221 [info] > git cat-file -s 3bece0bd5dd1ba92aafa9a78fef90a96c3577997 [2ms]
+2023-05-23 12:20:49.560 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:20:49.570 [info] > git remote --verbose [10ms]
+2023-05-23 12:20:49.571 [info] > git config --get commit.template [1ms]
+2023-05-23 12:20:49.583 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [1ms]
+2023-05-23 12:20:49.612 [info] > git status -z -uall [21ms]
+2023-05-23 12:20:54.650 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:20:54.659 [info] > git config --get commit.template [1ms]
+2023-05-23 12:20:54.659 [info] > git remote --verbose [9ms]
+2023-05-23 12:20:54.668 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [1ms]
+2023-05-23 12:20:54.697 [info] > git status -z -uall [21ms]
+2023-05-23 12:20:59.759 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:20:59.768 [info] > git config --get commit.template [1ms]
+2023-05-23 12:20:59.768 [info] > git remote --verbose [9ms]
+2023-05-23 12:20:59.778 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [1ms]
+2023-05-23 12:20:59.807 [info] > git status -z -uall [22ms]
+2023-05-23 12:21:01.423 [info] > git show --textconv :deploymentservice.yml [9ms]
+2023-05-23 12:21:01.424 [info] > git ls-files --stage -- /home/centos/nodeapp/deploymentservice.yml [2ms]
+2023-05-23 12:21:01.436 [info] > git cat-file -s 8a34bdada619f3713241d80a887aaa07d310c42a [4ms]
+2023-05-23 12:21:04.842 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:21:04.851 [info] > git remote --verbose [10ms]
+2023-05-23 12:21:04.852 [info] > git config --get commit.template [2ms]
+2023-05-23 12:21:04.864 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [2ms]
+2023-05-23 12:21:04.901 [info] > git status -z -uall [29ms]
+2023-05-23 12:21:08.006 [info] > git show --textconv :Dockerfile [10ms]
+2023-05-23 12:21:08.006 [info] > git ls-files --stage -- /home/centos/nodeapp/Dockerfile [3ms]
+2023-05-23 12:21:08.054 [info] > git cat-file -s b977f2e80f509e86d2980f0e1e0d2f4f10242e5a [1ms]
+2023-05-23 12:21:09.945 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:21:09.953 [info] > git remote --verbose [8ms]
+2023-05-23 12:21:09.954 [info] > git config --get commit.template [1ms]
+2023-05-23 12:21:09.964 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [1ms]
+2023-05-23 12:21:09.994 [info] > git status -z -uall [22ms]
+2023-05-23 12:21:11.108 [info] > git show --textconv :package-lock.json [12ms]
+2023-05-23 12:21:11.117 [info] > git ls-files --stage -- /home/centos/nodeapp/package-lock.json [10ms]
+2023-05-23 12:21:11.133 [info] > git cat-file -s 3f7a4311b154b350137d59c5e138b8d5b7e62c0d [1ms]
+2023-05-23 12:21:15.036 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:21:15.045 [info] > git remote --verbose [8ms]
+2023-05-23 12:21:15.045 [info] > git config --get commit.template [1ms]
+2023-05-23 12:21:15.054 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [0ms]
+2023-05-23 12:21:15.085 [info] > git status -z -uall [21ms]
+2023-05-23 12:21:16.491 [info] > git fetch [827ms]
+2023-05-23 12:21:16.491 [info] Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-05-23 12:21:16.499 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:21:16.508 [info] > git remote --verbose [8ms]
+2023-05-23 12:21:16.508 [info] > git config --get commit.template [1ms]
+2023-05-23 12:21:16.516 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [1ms]
+2023-05-23 12:21:16.546 [info] > git status -z -uall [22ms]
+2023-05-23 12:21:17.057 [info] > git ls-files --stage -- /home/centos/nodeapp/index.js [8ms]
+2023-05-23 12:21:17.064 [info] > git ls-files --stage -- /home/centos/nodeapp/package-lock.json [8ms]
+2023-05-23 12:21:17.072 [info] > git cat-file -s 154fb364a866b4c2087bbc8e66e90300d7e270f1 [8ms]
+2023-05-23 12:21:17.073 [info] > git cat-file -s 3f7a4311b154b350137d59c5e138b8d5b7e62c0d [2ms]
+2023-05-23 12:21:17.094 [info] > git show --textconv :index.js [8ms]
+2023-05-23 12:21:17.095 [info] > git show --textconv :package-lock.json [2ms]
+2023-05-23 12:21:20.117 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:21:20.124 [info] > git config --get commit.template [1ms]
+2023-05-23 12:21:20.124 [info] > git remote --verbose [7ms]
+2023-05-23 12:21:20.134 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [1ms]
+2023-05-23 12:21:20.161 [info] > git status -z -uall [20ms]
+2023-05-23 12:21:25.198 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:21:25.206 [info] > git remote --verbose [8ms]
+2023-05-23 12:21:25.207 [info] > git config --get commit.template [2ms]
+2023-05-23 12:21:25.216 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [0ms]
+2023-05-23 12:21:25.247 [info] > git status -z -uall [22ms]
+2023-05-23 12:21:30.279 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:21:30.290 [info] > git config --get commit.template [2ms]
+2023-05-23 12:21:30.290 [info] > git remote --verbose [11ms]
+2023-05-23 12:21:30.354 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [4ms]
+2023-05-23 12:21:30.391 [info] > git status -z -uall [28ms]
+2023-05-23 12:21:35.434 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:21:35.443 [info] > git remote --verbose [9ms]
+2023-05-23 12:21:35.444 [info] > git config --get commit.template [2ms]
+2023-05-23 12:21:35.452 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [1ms]
+2023-05-23 12:21:35.481 [info] > git status -z -uall [21ms]
+2023-05-23 12:21:40.512 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:21:40.520 [info] > git remote --verbose [7ms]
+2023-05-23 12:21:40.520 [info] > git config --get commit.template [1ms]
+2023-05-23 12:21:40.529 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [0ms]
+2023-05-23 12:21:40.559 [info] > git status -z -uall [21ms]
+2023-05-23 12:21:45.593 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:21:45.602 [info] > git config --get commit.template [0ms]
+2023-05-23 12:21:45.602 [info] > git remote --verbose [9ms]
+2023-05-23 12:21:45.612 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [1ms]
+2023-05-23 12:21:45.640 [info] > git status -z -uall [21ms]
+2023-05-23 12:21:50.674 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:21:50.683 [info] > git remote --verbose [9ms]
+2023-05-23 12:21:50.691 [info] > git config --get commit.template [9ms]
+2023-05-23 12:21:50.692 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [1ms]
+2023-05-23 12:21:50.720 [info] > git status -z -uall [21ms]
+2023-05-23 12:21:55.754 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:21:55.763 [info] > git remote --verbose [8ms]
+2023-05-23 12:21:55.770 [info] > git config --get commit.template [8ms]
+2023-05-23 12:21:55.777 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [7ms]
+2023-05-23 12:21:55.808 [info] > git status -z -uall [22ms]
+2023-05-23 12:22:00.847 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:22:00.856 [info] > git remote --verbose [8ms]
+2023-05-23 12:22:00.856 [info] > git config --get commit.template [1ms]
+2023-05-23 12:22:00.864 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [1ms]
+2023-05-23 12:22:00.893 [info] > git status -z -uall [21ms]
+2023-05-23 12:22:05.927 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:22:05.936 [info] > git remote --verbose [9ms]
+2023-05-23 12:22:05.945 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [0ms]
+2023-05-23 12:22:05.946 [info] > git config --get commit.template [11ms]
+2023-05-23 12:22:05.977 [info] > git status -z -uall [23ms]
+2023-05-23 12:22:11.010 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:22:11.018 [info] > git remote --verbose [7ms]
+2023-05-23 12:22:11.018 [info] > git config --get commit.template [2ms]
+2023-05-23 12:22:11.028 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [1ms]
+2023-05-23 12:22:11.057 [info] > git status -z -uall [21ms]
+2023-05-23 12:22:16.094 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:22:16.103 [info] > git config --get commit.template [2ms]
+2023-05-23 12:22:16.103 [info] > git remote --verbose [9ms]
+2023-05-23 12:22:16.159 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [2ms]
+2023-05-23 12:22:16.187 [info] > git status -z -uall [22ms]
+2023-05-23 12:22:21.220 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:22:21.228 [info] > git remote --verbose [7ms]
+2023-05-23 12:22:21.229 [info] > git config --get commit.template [1ms]
+2023-05-23 12:22:21.237 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [1ms]
+2023-05-23 12:22:21.265 [info] > git status -z -uall [19ms]
+2023-05-23 12:22:26.296 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:22:26.303 [info] > git remote --verbose [7ms]
+2023-05-23 12:22:26.312 [info] > git config --get commit.template [9ms]
+2023-05-23 12:22:26.312 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [1ms]
+2023-05-23 12:22:26.341 [info] > git status -z -uall [21ms]
+2023-05-23 12:22:31.375 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:22:31.384 [info] > git config --get commit.template [1ms]
+2023-05-23 12:22:31.384 [info] > git remote --verbose [9ms]
+2023-05-23 12:22:31.394 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [0ms]
+2023-05-23 12:22:31.421 [info] > git status -z -uall [19ms]
+2023-05-23 12:22:36.454 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:22:36.462 [info] > git remote --verbose [8ms]
+2023-05-23 12:22:36.463 [info] > git config --get commit.template [1ms]
+2023-05-23 12:22:36.471 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [1ms]
+2023-05-23 12:22:36.500 [info] > git status -z -uall [21ms]
+2023-05-23 12:22:41.571 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:22:41.580 [info] > git remote --verbose [8ms]
+2023-05-23 12:22:41.580 [info] > git config --get commit.template [1ms]
+2023-05-23 12:22:41.588 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [0ms]
+2023-05-23 12:22:41.616 [info] > git status -z -uall [18ms]
+2023-05-23 12:22:46.654 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:22:46.655 [info] > git remote --verbose [1ms]
+2023-05-23 12:22:46.655 [info] > git config --get commit.template [9ms]
+2023-05-23 12:22:46.666 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [2ms]
+2023-05-23 12:22:46.698 [info] > git status -z -uall [22ms]
+2023-05-23 12:22:51.727 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:22:51.735 [info] > git remote --verbose [8ms]
+2023-05-23 12:22:51.735 [info] > git config --get commit.template [1ms]
+2023-05-23 12:22:51.744 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [1ms]
+2023-05-23 12:22:51.772 [info] > git status -z -uall [21ms]
+2023-05-23 12:22:56.804 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:22:56.814 [info] > git remote --verbose [10ms]
+2023-05-23 12:22:56.814 [info] > git config --get commit.template [1ms]
+2023-05-23 12:22:56.826 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [2ms]
+2023-05-23 12:22:56.855 [info] > git status -z -uall [21ms]
+2023-05-23 12:23:01.887 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:23:01.910 [info] > git remote --verbose [23ms]
+2023-05-23 12:23:01.927 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [1ms]
+2023-05-23 12:23:01.927 [info] > git config --get commit.template [18ms]
+2023-05-23 12:23:01.969 [info] > git status -z -uall [35ms]
+2023-05-23 12:23:07.004 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:23:07.013 [info] > git config --get commit.template [0ms]
+2023-05-23 12:23:07.013 [info] > git remote --verbose [9ms]
+2023-05-23 12:23:07.022 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [1ms]
+2023-05-23 12:23:07.050 [info] > git status -z -uall [20ms]
+2023-05-23 12:23:12.082 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:23:12.090 [info] > git remote --verbose [8ms]
+2023-05-23 12:23:12.091 [info] > git config --get commit.template [1ms]
+2023-05-23 12:23:12.100 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [0ms]
+2023-05-23 12:23:12.129 [info] > git status -z -uall [19ms]
+2023-05-23 12:23:17.163 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:23:17.170 [info] > git remote --verbose [7ms]
+2023-05-23 12:23:17.171 [info] > git config --get commit.template [1ms]
+2023-05-23 12:23:17.180 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [1ms]
+2023-05-23 12:23:17.234 [info] > git status -z -uall [47ms]
+2023-05-23 12:23:22.272 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:23:22.279 [info] > git remote --verbose [7ms]
+2023-05-23 12:23:22.280 [info] > git config --get commit.template [2ms]
+2023-05-23 12:23:22.289 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [1ms]
+2023-05-23 12:23:22.315 [info] > git status -z -uall [19ms]
+2023-05-23 12:23:27.344 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:23:27.351 [info] > git remote --verbose [7ms]
+2023-05-23 12:23:27.352 [info] > git config --get commit.template [1ms]
+2023-05-23 12:23:27.361 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [0ms]
+2023-05-23 12:23:27.387 [info] > git status -z -uall [19ms]
+2023-05-23 12:23:32.421 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:23:32.431 [info] > git config --get commit.template [0ms]
+2023-05-23 12:23:32.431 [info] > git remote --verbose [10ms]
+2023-05-23 12:23:32.440 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [1ms]
+2023-05-23 12:23:32.468 [info] > git status -z -uall [21ms]
+2023-05-23 12:23:37.504 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:23:37.511 [info] > git remote --verbose [8ms]
+2023-05-23 12:23:37.511 [info] > git config --get commit.template [1ms]
+2023-05-23 12:23:37.519 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [0ms]
+2023-05-23 12:23:37.546 [info] > git status -z -uall [19ms]
+2023-05-23 12:23:42.583 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:23:42.590 [info] > git remote --verbose [7ms]
+2023-05-23 12:23:42.591 [info] > git config --get commit.template [1ms]
+2023-05-23 12:23:42.600 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [1ms]
+2023-05-23 12:23:42.628 [info] > git status -z -uall [19ms]
+2023-05-23 12:23:47.691 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:23:47.700 [info] > git remote --verbose [9ms]
+2023-05-23 12:23:47.700 [info] > git config --get commit.template [1ms]
+2023-05-23 12:23:47.711 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [1ms]
+2023-05-23 12:23:47.740 [info] > git status -z -uall [21ms]
+2023-05-23 12:23:52.806 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:23:52.815 [info] > git remote --verbose [8ms]
+2023-05-23 12:23:52.827 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [0ms]
+2023-05-23 12:23:52.827 [info] > git config --get commit.template [13ms]
+2023-05-23 12:23:52.884 [info] > git status -z -uall [49ms]
+2023-05-23 12:23:57.919 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/centos/nodeapp/--git-common-dir/config'
+2023-05-23 12:23:57.928 [info] > git remote --verbose [9ms]
+2023-05-23 12:23:57.928 [info] > git config --get commit.template [1ms]
+2023-05-23 12:23:57.937 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [1ms]
+2023-05-23 12:23:57.970 [info] > git status -z -uall [24ms]
