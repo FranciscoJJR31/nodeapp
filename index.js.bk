@@ -1,0 +1,36 @@
+const express = require('express')
+const os = require('os')
+const Pool = require('pg').Pool
+const bodyParser = require('body-parser')
+const pool = new Pool({
+  user: 'appuser',
+//  host: 'postgres',
+  host: '10.0.0.99',
+  database: 'appdb',
+  password: 'strongpasswordapp',
+  port: 5432,
+})
+const app = express()
+app.use(bodyParser.json())
+app.use(
+  bodyParser.urlencoded({
+    extended: true,
+  })
+)
+
+app.get('/agresorPosition', (request, response) => {
+//  response.json({ info: 'Node.js, Express, and Postgres API' })
+    pool.query('SELECT * FROM phonebook', (error, results) => {
+    if (error) {
+      throw error
+    }
+    
+    response.status(200).json(results.rows)
+  })
+
+
+})
+
+
+const port = 3000
+app.listen(port, () => console.log(`listening on port ${port}`))
