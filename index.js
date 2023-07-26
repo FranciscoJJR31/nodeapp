@@ -7,7 +7,7 @@ const moment = require('moment');
 const nodemailer = require('nodemailer');
 const Horaformat =  'HH:mm:ss';
 const Fechaformat =  'YYYY-MM-DD';
-//const WebSocket = require("ws").Server; 
+  //const WebSocket = require("ws").Server; 
 
 const pool = new Pool({
   user: 'appuser',
