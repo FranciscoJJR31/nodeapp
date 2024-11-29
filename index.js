@@ -8,11 +8,12 @@ const nodemailer = require('nodemailer');
 const Horaformat =  'HH:mm:ss';
 const Fechaformat =  'YYYY-MM-DD';
   //const WebSocket = require("ws").Server; 
+  const cors = require('cors');
 
 const pool = new Pool({
   user: 'appuser',
   //host: 'postgres',
-  host: '10.0.0.94', 
+  host: '10.0.0.99', 
   database: 'appdb',
   password: 'strongpasswordapp',
   port: 5432,
@@ -23,7 +24,9 @@ app.use(
   bodyParser.urlencoded({
     extended: true,
   })
+
 )
+app.use(cors({ origin: '*' }));
 
 /*const wss = new WebSocket.Server({ port: 4000 }); 
 wss.on("connection", (ws, request) => { const clientIp = request.connection.remoteAddress;
@@ -414,11 +417,41 @@ pool.connect((err, client, done)=>{
     }
     });
   
+app.post('/user', async (request, response) => {
+      const nombre = request.body.name;
+      const email = request.body.email;
+      const password = request.body.password;
+      
+      //INSERT INTO table_name(column1, column2, …) VALUES (value1, value2, …);
+      
+
+      pool
+    .query('SELECT * FROM admin_user where email = $1 and nombre = $2 and pass = $3',[ email, nombre, password ])
+    .then(async (res) => {
+         if(res.rowCount=="0"){
+        pool.query("insert  into admin_user ( nombre, email, pass ) values ( $1, $2, $3 ) ",[ nombre, email, password ])
+        response.status(200).json("resgistrado")
+        console.log("user: "+ email  + " resgistrado")
+      }else{
+        response.status(200).json("user: "+ nombre + " ya existe")
+        console.log("user: "+ email + " ya existe")
+      }
+       
+    }) 
+    .catch((err) => {
+
+      
+      response.status(404).json("Error")
+    
+    
+    })
   
-  
-
-
-
+  })
+            
+            
+          
+       
+        
 
 
 app.get('/agregaragresor', async (request, response) => {
