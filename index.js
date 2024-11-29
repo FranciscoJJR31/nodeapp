@@ -10,6 +10,7 @@ const Fechaformat =  'YYYY-MM-DD';
   //const WebSocket = require("ws").Server; 
   const cors = require('cors');
 
+  
 const pool = new Pool({
   user: 'appuser',
   //host: 'postgres',
