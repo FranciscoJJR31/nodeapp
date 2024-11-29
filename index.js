@@ -454,7 +454,9 @@ app.post('/user', async (request, response) => {
   app.get('/prueba', async (request, response) => {
     response.status(200).json("Prueba OK")
     
-    })       
+    }) 
+    
+    
 
 
 app.get('/agregaragresor', async (request, response) => {
